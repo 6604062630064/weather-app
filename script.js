@@ -23,7 +23,7 @@ const getGifURL = async (state) => {
 };
 
 const displayGif = (json) => {
-	// if it's lower then 20 degrees celsisu it will get cold-related gifs. and vice versa
+	// if it's lower then 20 degrees celsius it will get cold-related gifs. and vice versa
 
 	const gif = document.querySelector(".gif");
 	const temperature = json.current.temp_c;
