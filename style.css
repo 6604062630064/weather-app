@@ -164,3 +164,25 @@ h1 {
 	width: 70px;
 	margin-right: 12px;
 }
+
+.display {
+	margin-top: 60px;
+	gap: 30px;
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #3a86ff;
+}
+
+h2 {
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+.table {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
